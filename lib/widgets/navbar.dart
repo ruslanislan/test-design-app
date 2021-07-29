@@ -38,7 +38,7 @@ class NavBar extends StatelessWidget {
                 if (onTap != null)
                   CustomIconButton(asset: 'assets/svg/back.svg', onTap: onTap,),
                 Container(
-                  color: Colors.green,
+                  //color: Colors.green,
                   width: (220 * width) / layoutWidth,
                   height: (28 * height) / layoutHeight,
                   padding: EdgeInsets.symmetric(
