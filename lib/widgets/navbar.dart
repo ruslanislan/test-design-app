@@ -31,17 +31,24 @@ class NavBar extends StatelessWidget {
         children: [
           Row(),
           Container(
+            //color: Colors.red,
             height: (28 * height) / layoutHeight,
             child: Row(
               children: [
                 if (onTap != null)
                   CustomIconButton(asset: 'assets/svg/back.svg', onTap: onTap,),
-                Padding(
+                Container(
+                  color: Colors.green,
+                  width: (220 * width) / layoutWidth,
+                  height: (28 * height) / layoutHeight,
                   padding: EdgeInsets.symmetric(
                       horizontal: (15 * width) / layoutWidth),
-                  child: Text(
-                    text,
-                    style: TextStyle(fontSize: (24 * height) / layoutHeight),
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      text,
+                      style: TextStyle(fontSize:22),
+                    ),
                   ),
                 ),
                 Spacer(),
