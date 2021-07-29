@@ -29,7 +29,7 @@ class Line2 extends StatelessWidget {
               alignment: Alignment.centerLeft,
               child: Text(
                 text,
-                style: TextStyle(fontSize: (16 * height) / layoutHeight),
+                style: TextStyle(fontSize: (15 * height) / layoutHeight),
               ),
             ),
           ),
@@ -45,7 +45,7 @@ class Line2 extends StatelessWidget {
                     child: Text(
                       tempText!,
                       style: TextStyle(
-                          fontSize: (16 * height) / layoutHeight,
+                          fontSize: (15 * height) / layoutHeight,
                           color: Color(0xFF8E8E93)),
                     ),
                   ),

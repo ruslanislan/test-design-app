@@ -28,7 +28,7 @@ class Line1 extends StatelessWidget {
             child: Align(
               child: Text(
                 text,
-                style: TextStyle(fontSize: (16 * height) / layoutHeight),
+                style: TextStyle(fontSize: (15 * height) / layoutHeight),
               ),
             ),
           ),

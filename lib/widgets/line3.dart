@@ -36,12 +36,12 @@ class Line3 extends StatelessWidget {
                       Text(
                         'rustamivanov',
                         style:
-                            TextStyle(fontSize: (16 * height) / layoutHeight),
+                            TextStyle(fontSize: (15 * height) / layoutHeight),
                       ),
                       Text(
                         'Moscow, Russia',
                         style: TextStyle(
-                            fontSize: (16 * height) / layoutHeight,
+                            fontSize: (15 * height) / layoutHeight,
                             color: Color(0xFF8E8E93)),
                       )
                     ],

@@ -65,7 +65,7 @@ flutter:
   fonts:
     - family: IBMPlexSans
       fonts:
-        - asset: fonts/IBMPlexSans-Text.ttf
+        - asset: fonts/IBMPlexSans-Regular.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
